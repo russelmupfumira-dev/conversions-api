@@ -4,5 +4,6 @@ import com.interview.playsafe.models.ConversionEntity;
 
 public interface ConversionService {
 
-    ConversionEntity convertKelvinToCelcius(ConversionEntity conversionEntity);
+    ConversionEntity convertMetric(ConversionEntity conversionEntity);
+
 }
